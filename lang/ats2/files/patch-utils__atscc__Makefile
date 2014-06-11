@@ -1,0 +1,10 @@
+--- ./utils/atscc/Makefile.orig	2014-06-10 11:41:23.000000000 +0900
++++ ./utils/atscc/Makefile	2014-06-11 10:45:31.000000000 +0900
+@@ -4,7 +4,6 @@
+ 
+ ######
+ #
+-CC=gcc
+ CFLAGS=-std=c99 -D_XOPEN_SOURCE
+ #
+ ######

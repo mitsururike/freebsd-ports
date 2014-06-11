@@ -1,0 +1,11 @@
+--- ./src/CBOOT/Makefile.orig	2014-06-10 11:41:23.000000000 +0900
++++ ./src/CBOOT/Makefile	2014-06-11 10:45:31.000000000 +0900
+@@ -4,7 +4,7 @@
+ #
+ ######
+ #
+-GCC=gcc
++GCC=${CC}
+ CCOMP=$(GCC)
+ #
+ # GCFLAG=-D_ATS_NGC

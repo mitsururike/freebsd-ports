@@ -1,0 +1,395 @@
+%%ATS_LIBDIR%%/contrib/GTK/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gdk.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gdk/.keeper
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gdk/gdkcairo.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/.keeper
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkadjustment.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkbox.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkbutton.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkcontainer.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkdialog.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkdrawingarea.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkhbox.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkhseparator.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtklabel.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkmain.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkmessagedialog.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkmisc.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkscrolledwindow.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkseparator.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtktable.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtktextbuffer.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtktextmark.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtktexttag.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtktexttagtable.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtktextview.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkvbox.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkviewport.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkvseparator.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkwidget.cats
+%%ATS_LIBDIR%%/contrib/GTK/CATS/gtk/gtkwindow.cats
+%%ATS_LIBDIR%%/contrib/GTK/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/GTK/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gdk.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gdk/.keeper
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gdk/gdkcairo.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gdk/gdkevents.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/.keeper
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/basics.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkadjustment.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkbox.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkbutton.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkcontainer.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkdialog.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkdrawingarea.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkenums.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkhbox.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkhseparator.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtklabel.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkmain.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkmessagedialog.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkmisc.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkscrolledwindow.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkseparator.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtktable.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtktextbuffer.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtktextiter.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtktextmark.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtktexttag.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtktexttagtable.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtktextview.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkvbox.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkversion.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkviewport.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkvseparator.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkwidget.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkwindow.sats
+%%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/mybasis.sats
+%%ATS_LIBDIR%%/contrib/HTML/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/HTML/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/HTML/JS/HTMLdocument.js
+%%ATS_LIBDIR%%/contrib/HTML/SATS/document.sats
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/.keeper
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/JS/.keeper
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/JS/HTML5canvas2d.js
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/SATS/canvas2d.sats
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST/.keeper
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST/Makefile
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST/test01.dats
+%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST/test01.html
+%%ATS_LIBDIR%%/contrib/JNI/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/JNI/CATS/jni.cats
+%%ATS_LIBDIR%%/contrib/JNI/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/JNI/DATS/ATSarrayptr.dats
+%%ATS_LIBDIR%%/contrib/JNI/Java/.keeper
+%%ATS_LIBDIR%%/contrib/JNI/Java/ATSarrayptr.java
+%%ATS_LIBDIR%%/contrib/JNI/Java/Makefile
+%%ATS_LIBDIR%%/contrib/JNI/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/JNI/SATS/ATSarrayptr.sats
+%%ATS_LIBDIR%%/contrib/JNI/SATS/jni.sats
+%%ATS_LIBDIR%%/contrib/SDL2/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/SDL2/CATS/SDL.cats
+%%ATS_LIBDIR%%/contrib/SDL2/CATS/SDL_events.cats
+%%ATS_LIBDIR%%/contrib/SDL2/CATS/SDL_render.cats
+%%ATS_LIBDIR%%/contrib/SDL2/CATS/SDL_timer.cats
+%%ATS_LIBDIR%%/contrib/SDL2/CATS/SDL_version.cats
+%%ATS_LIBDIR%%/contrib/SDL2/CATS/SDL_video.cats
+%%ATS_LIBDIR%%/contrib/SDL2/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/SDL2/SATS/SDL.sats
+%%ATS_LIBDIR%%/contrib/SDL2/SATS/SDL_events.sats
+%%ATS_LIBDIR%%/contrib/SDL2/SATS/SDL_render.sats
+%%ATS_LIBDIR%%/contrib/SDL2/SATS/SDL_timer.sats
+%%ATS_LIBDIR%%/contrib/SDL2/SATS/SDL_version.sats
+%%ATS_LIBDIR%%/contrib/SDL2/SATS/SDL_video.sats
+%%ATS_LIBDIR%%/contrib/SDL2/SATS/mybasis.sats
+%%ATS_LIBDIR%%/contrib/cairo/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/cairo/CATS/cairo.cats
+%%ATS_LIBDIR%%/contrib/cairo/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/cairo/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing/cairo-Paths.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing/cairo-Raster-Sources.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing/cairo-Regions.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing/cairo-Transformations.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing/cairo-cairo-pattern-t.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing/cairo-cairo-t.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing/cairo-text.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Fonts/cairo-cairo-font-face-t.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Surfaces/cairo-Image-Surfaces.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Surfaces/cairo-PDF-Surfaces.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Surfaces/cairo-PNG-Support.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Surfaces/cairo-PostScript-Surfaces.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Surfaces/cairo-cairo-device-t.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Surfaces/cairo-cairo-surface-t.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Utilities/cairo-Error-Handling.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Utilities/cairo-Types.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/Utilities/cairo-cairo-matrix-t.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/cairo.sats
+%%ATS_LIBDIR%%/contrib/cairo/SATS/mybasis.sats
+%%ATS_LIBDIR%%/contrib/glib/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/glib/CATS/glib-object.cats
+%%ATS_LIBDIR%%/contrib/glib/CATS/glib.cats
+%%ATS_LIBDIR%%/contrib/glib/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/glib/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/glib/SATS/glib-object.sats
+%%ATS_LIBDIR%%/contrib/glib/SATS/glib.sats
+%%ATS_LIBDIR%%/contrib/glib/SATS/glib/gmain.sats
+%%ATS_LIBDIR%%/contrib/glib/SATS/glib/gtypes.sats
+%%ATS_LIBDIR%%/contrib/glib/SATS/glib/mybasics.sats
+%%ATS_LIBDIR%%/contrib/glib/SATS/glib/mybasis.sats
+%%ATS_LIBDIR%%/contrib/glib/SATS/gobject/gobject.sats
+%%ATS_LIBDIR%%/contrib/glib/SATS/gobject/gsignal.sats
+%%ATS_LIBDIR%%/contrib/hiredis/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/hiredis/CATS/hiredis.cats
+%%ATS_LIBDIR%%/contrib/hiredis/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/hiredis/DATS/hiredis.dats
+%%ATS_LIBDIR%%/contrib/hiredis/DATS/hiredis_ML.dats
+%%ATS_LIBDIR%%/contrib/hiredis/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/hiredis/SATS/hiredis.sats
+%%ATS_LIBDIR%%/contrib/hiredis/SATS/hiredis_ML.sats
+%%ATS_LIBDIR%%/contrib/jansson/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/jansson/CATS/jansson.cats
+%%ATS_LIBDIR%%/contrib/jansson/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/jansson/DATS/jansson.dats
+%%ATS_LIBDIR%%/contrib/jansson/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/jansson/SATS/jansson.sats
+%%ATS_LIBDIR%%/contrib/json-c/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/json-c/CATS/json.cats
+%%ATS_LIBDIR%%/contrib/json-c/CATS/printbuf.cats
+%%ATS_LIBDIR%%/contrib/json-c/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/json-c/DATS/json.dats
+%%ATS_LIBDIR%%/contrib/json-c/DATS/json_ML.dats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/json-c/SATS/arraylist.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/json.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/json_ML.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/json_object.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/json_object_iterator.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/json_tokener.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/json_util.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/linkhash.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/mybasis.sats
+%%ATS_LIBDIR%%/contrib/json-c/SATS/printbuf.sats
+%%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/bool.cats
+%%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/char.cats
+%%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/integer.cats
+%%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/pointer.cats
+%%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/string.cats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_cloref.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_fileptr.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_fileref.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_fun.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_string.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_strptr.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/SATS/cstream.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/gcount.hats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/gdeqarray.hats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/globvar.hats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/gstacklst.hats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/DATS/intinf_t.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/DATS/intinf_vt.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/SATS/intinf.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/SATS/intinf_t.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/SATS/intinf_vt.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/BUCS/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/BUCS/DATS/BUCS.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock/DATS/fileAsLock.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock/SATS/fileAsLock.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS/gtkcairoclock.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS/gtkcairotimer/ControlPanel.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS/gtkcairotimer/DrawingPanel.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS/gtkcairotimer/gtkcairotimer_main.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS/gtkcairotimer/gtkcairotimer_timer.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS/gtkcairotimer/gtkcairotimer_toplevel.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/SATS/gtkcairoclock.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/SATS/gtkcairotimer.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/TEST/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/TEST/Makefile
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/TEST/test_gtkcairotimer.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/DATS/mydraw.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/DATS/mydraw_HTML5_canvas2d.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/DATS/mydraw_bargraph.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/DATS/mydraw_cairo.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/DATS/mydraw_matgraph.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/JS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/JS/mydraw_HTML5_canvas2d.js
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/SATS/mydraw.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/SATS/mydraw_HTML5_canvas2d.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/SATS/mydraw_cairo.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/channel.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/mythread.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/mythread_posix.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/nwaiter.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/parallelize.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/spinref.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/spinvar.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/workshop.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/channel.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/mythread.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/nwaiter.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/parallelize.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/spinref.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/spinvar.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/workshop.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/DATS/foldleft.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/DATS/randgen.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/SATS/foldleft.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/SATS/randgen.sats
+%%ATS_LIBDIR%%/contrib/libcurl/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/libcurl/CATS/curl.cats
+%%ATS_LIBDIR%%/contrib/libcurl/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libcurl/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libcurl/SATS/curl.sats
+%%ATS_LIBDIR%%/contrib/libcurl/SATS/easy.sats
+%%ATS_LIBDIR%%/contrib/libgmp/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/libgmp/CATS/gmp.cats
+%%ATS_LIBDIR%%/contrib/libgmp/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libgmp/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libgmp/SATS/gmp.sats
+%%ATS_LIBDIR%%/contrib/openssl/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/openssl/CATS/evp.cats
+%%ATS_LIBDIR%%/contrib/openssl/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/openssl/DATS/openssl.dats
+%%ATS_LIBDIR%%/contrib/openssl/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/openssl/SATS/evp.sats
+%%ATS_LIBDIR%%/contrib/openssl/SATS/main.sats
+%%ATS_LIBDIR%%/contrib/pcre/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/pcre/CATS/pcre.cats
+%%ATS_LIBDIR%%/contrib/pcre/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/pcre/DATS/pcre.dats
+%%ATS_LIBDIR%%/contrib/pcre/DATS/pcre_ML.dats
+%%ATS_LIBDIR%%/contrib/pcre/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/pcre/SATS/pcre.sats
+%%ATS_LIBDIR%%/contrib/pcre/SATS/pcre_ML.sats
+%%ATS_LIBDIR%%/contrib/zeromq/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/zeromq/CATS/zmq.cats
+%%ATS_LIBDIR%%/contrib/zeromq/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/zeromq/DATS/zmq.dats
+%%ATS_LIBDIR%%/contrib/zeromq/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/zeromq/SATS/zmq.sats
+@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/CATS/gdk
+@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/CATS/gtk
+@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/SATS/gdk
+@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/SATS/gtk
+@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/GTK
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/JS
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/canvas-2d/JS
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/canvas-2d/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/canvas-2d
+@dirrmtry %%ATS_LIBDIR%%/contrib/HTML
+@dirrmtry %%ATS_LIBDIR%%/contrib/JNI/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/JNI/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/JNI/Java
+@dirrmtry %%ATS_LIBDIR%%/contrib/JNI/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/JNI
+@dirrmtry %%ATS_LIBDIR%%/contrib/SDL2/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/SDL2/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/SDL2
+@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing
+@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS/Fonts
+@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS/Surfaces
+@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS/Utilities
+@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/cairo
+@dirrmtry %%ATS_LIBDIR%%/contrib/glib/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/glib/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/glib/SATS/glib
+@dirrmtry %%ATS_LIBDIR%%/contrib/glib/SATS/gobject
+@dirrmtry %%ATS_LIBDIR%%/contrib/glib/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/glib
+@dirrmtry %%ATS_LIBDIR%%/contrib/hiredis/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/hiredis/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/hiredis/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/hiredis
+@dirrmtry %%ATS_LIBDIR%%/contrib/jansson/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/jansson/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/jansson/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/jansson
+@dirrmtry %%ATS_LIBDIR%%/contrib/json-c/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/json-c/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/json-c/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/json-c
+@dirrmtry %%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/kernelats/prelude
+@dirrmtry %%ATS_LIBDIR%%/contrib/kernelats
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/BUCS/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/BUCS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS/gtkcairotimer
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/TEST
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/JS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi
+@dirrmtry %%ATS_LIBDIR%%/contrib/libats-
+@dirrmtry %%ATS_LIBDIR%%/contrib/libcurl/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libcurl/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libcurl/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libcurl
+@dirrmtry %%ATS_LIBDIR%%/contrib/libgmp/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libgmp/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libgmp/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/libgmp
+@dirrmtry %%ATS_LIBDIR%%/contrib/openssl/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/openssl/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/openssl/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/openssl
+@dirrmtry %%ATS_LIBDIR%%/contrib/pcre/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/pcre/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/pcre/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/pcre
+@dirrmtry %%ATS_LIBDIR%%/contrib/zeromq/CATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/zeromq/DATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/zeromq/SATS
+@dirrmtry %%ATS_LIBDIR%%/contrib/zeromq
+@dirrmtry %%ATS_LIBDIR%%/contrib
