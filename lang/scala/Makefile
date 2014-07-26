@@ -1,5 +1,5 @@
 # Created by: Mitsuru YOSHIDA <mitsuru@riken.jp>
-# $FreeBSD: head/lang/scala/Makefile 349296 2014-03-26 21:21:41Z pawel $
+# $FreeBSD: head/lang/scala/Makefile 356324 2014-06-03 10:51:48Z ale $
 
 PORTNAME=	scala
 PORTVERSION=	2.11.1
@@ -15,7 +15,7 @@ LICENSE_FILE=	${WRKSRC}/doc/LICENSE.md
 
 RUN_DEPENDS=	bash:${PORTSDIR}/shells/bash
 
-OPTIONS_DEFINE=	DOCS EXAMPLES
+OPTIONS_DEFINE=	DOCS
 
 NO_BUILD=	yes
 USE_JAVA=	yes
