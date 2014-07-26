@@ -2,7 +2,7 @@
 # $FreeBSD: head/lang/scala/Makefile 356324 2014-06-03 10:51:48Z ale $
 
 PORTNAME=	scala
-PORTVERSION=	2.11.1
+PORTVERSION=	2.11.2
 CATEGORIES=	lang java
 MASTER_SITES=	http://www.scala-lang.org/files/archive/
 EXTRACT_SUFX=	.tgz
