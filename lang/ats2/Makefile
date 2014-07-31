@@ -28,9 +28,20 @@ OPTIONS_DEFINE=		EXAMPLES GMP
 OPTIONS_DEFAULT=	EXAMPLES GMP
 
 ATS_IMPL=	postiats
-ATS_VER=	0.1.0
+ATS_VER=	0.1.1
+
+ATS_LIBDIR_REL=	lib/ats2-${ATS_IMPL}-${ATS_VER}
+ATS_LIBDIR=	${LOCALBASE}/${ATS_LIBDIR_REL}
+
+PLIST_SUB+=	ATS_LIBDIR="${ATS_LIBDIR_REL}"
 
 .include <bsd.port.pre.mk>
+
+.if ${ARCH} == amd64
+PLIST_SUB+=	LIBDIR="lib64"
+.else
+PLIST_SUB+=	LIBDIR="lib"
+.endif
 
 .if ${PORT_OPTIONS:MGMP}
 LIB_DEPENDS+=	libgmp.so:${PORTSDIR}/math/gmp
