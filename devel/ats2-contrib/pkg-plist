@@ -232,8 +232,6 @@
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/SATS/mydraw_cairo.sats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/.keeper
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/channel.dats
-%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/mythread.dats
-%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/mythread_posix.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/nwaiter.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/parallelize.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/spinref.dats
@@ -241,7 +239,6 @@
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS/workshop.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/.keeper
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/channel.sats
-%%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/mythread.sats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/nwaiter.sats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/parallelize.sats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS/spinref.sats

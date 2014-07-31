@@ -5,7 +5,7 @@ PORTNAME=	ats2
 PORTVERSION=	${ATS_VER}
 CATEGORIES=	devel
 MASTER_SITES=	SF
-MASTER_SITE_SUBDIR=	ats2-lang-contrib/ats2-lang-contrib/
+MASTER_SITE_SUBDIR=	ats2-lang-contrib/ats2-lang-contrib
 PKGNAMESUFFIX=	-contrib
 DISTNAME=	${PORTNAME:tu}-${ATS_IMPL:C/^(.).*/\1/:tu}${ATS_IMPL:C/^.(.*)/\1/}${PKGNAMESUFFIX}-${PORTVERSION}
 EXTRACT_SUFX=	.tgz
@@ -18,7 +18,7 @@ LICENSE=	GPLv3
 ONLY_FOR_ARCHS=	i386 amd64
 
 ATS_IMPL=	postiats
-ATS_VER=	0.1.0
+ATS_VER=	0.1.1
 
 ATS_LIBDIR_REL=	lib/ats2-${ATS_IMPL}-${ATS_VER}
 ATS_LIBDIR=	${LOCALBASE}/${ATS_LIBDIR_REL}
