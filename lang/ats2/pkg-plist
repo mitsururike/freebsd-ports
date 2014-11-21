@@ -75,7 +75,6 @@ bin/patsopt
 %%ATS_LIBDIR%%/libats/DATS/linmap_list.dats
 %%ATS_LIBDIR%%/libats/DATS/linmap_randbst.dats
 %%ATS_LIBDIR%%/libats/DATS/linmap_skiplist.dats
-%%ATS_LIBDIR%%/libats/DATS/linmap_skiplist.dats.orig
 %%ATS_LIBDIR%%/libats/DATS/linralist_nested.dats
 %%ATS_LIBDIR%%/libats/DATS/linset_avltree.dats
 %%ATS_LIBDIR%%/libats/DATS/linset_listord.dats
@@ -97,6 +96,7 @@ bin/patsopt
 %%ATS_LIBDIR%%/libats/ML/DATS/funmap.dats
 %%ATS_LIBDIR%%/libats/ML/DATS/funset.dats
 %%ATS_LIBDIR%%/libats/ML/DATS/hashtblref.dats
+%%ATS_LIBDIR%%/libats/ML/DATS/intrange.dats
 %%ATS_LIBDIR%%/libats/ML/DATS/list0.dats
 %%ATS_LIBDIR%%/libats/ML/DATS/matrix0.dats
 %%ATS_LIBDIR%%/libats/ML/DATS/monad_list.dats
@@ -114,6 +114,7 @@ bin/patsopt
 %%ATS_LIBDIR%%/libats/ML/SATS/funmap.sats
 %%ATS_LIBDIR%%/libats/ML/SATS/funset.sats
 %%ATS_LIBDIR%%/libats/ML/SATS/hashtblref.sats
+%%ATS_LIBDIR%%/libats/ML/SATS/intrange.sats
 %%ATS_LIBDIR%%/libats/ML/SATS/list0.sats
 %%ATS_LIBDIR%%/libats/ML/SATS/matrix0.sats
 %%ATS_LIBDIR%%/libats/ML/SATS/monad_list.sats
@@ -175,6 +176,7 @@ bin/patsopt
 %%ATS_LIBDIR%%/libc/CATS/dlfcn.cats
 %%ATS_LIBDIR%%/libc/CATS/errno.cats
 %%ATS_LIBDIR%%/libc/CATS/fcntl.cats
+%%ATS_LIBDIR%%/libc/CATS/float.cats
 %%ATS_LIBDIR%%/libc/CATS/fnmatch.cats
 %%ATS_LIBDIR%%/libc/CATS/malloc.cats
 %%ATS_LIBDIR%%/libc/CATS/math.cats
@@ -189,6 +191,7 @@ bin/patsopt
 %%ATS_LIBDIR%%/libc/DATS/dirent.dats
 %%ATS_LIBDIR%%/libc/DATS/errno.dats
 %%ATS_LIBDIR%%/libc/DATS/fcntl.dats
+%%ATS_LIBDIR%%/libc/DATS/float.dats
 %%ATS_LIBDIR%%/libc/DATS/math.dats
 %%ATS_LIBDIR%%/libc/DATS/stdio.dats
 %%ATS_LIBDIR%%/libc/DATS/stdlib.dats
@@ -202,6 +205,7 @@ bin/patsopt
 %%ATS_LIBDIR%%/libc/SATS/dlfcn.sats
 %%ATS_LIBDIR%%/libc/SATS/errno.sats
 %%ATS_LIBDIR%%/libc/SATS/fcntl.sats
+%%ATS_LIBDIR%%/libc/SATS/float.sats
 %%ATS_LIBDIR%%/libc/SATS/fnmatch.sats
 %%ATS_LIBDIR%%/libc/SATS/malloc.sats
 %%ATS_LIBDIR%%/libc/SATS/math.sats
@@ -371,45 +375,155 @@ bin/patsopt
 %%ATS_LIBDIR%%/share/atsmake-pre.mk
 %%ATS_LIBDIR%%/share/atspre_define.hats
 %%ATS_LIBDIR%%/share/atspre_staload.hats
-@dirrmtry %%ATS_LIBDIR%%/bin
-@dirrmtry %%ATS_LIBDIR%%/ccomp/atslib/lib
-@dirrmtry %%ATS_LIBDIR%%/ccomp/atslib/%%LIBDIR%%
-@dirrmtry %%ATS_LIBDIR%%/ccomp/atslib/output
-@dirrmtry %%ATS_LIBDIR%%/ccomp/atslib
-@dirrmtry %%ATS_LIBDIR%%/ccomp/runtime
-@dirrmtry %%ATS_LIBDIR%%/ccomp
-@dirrmtry %%ATS_LIBDIR%%/libats/ATS1/DATS
-@dirrmtry %%ATS_LIBDIR%%/libats/ATS1/SATS
-@dirrmtry %%ATS_LIBDIR%%/libats/ATS1
-@dirrmtry %%ATS_LIBDIR%%/libats/CATS
-@dirrmtry %%ATS_LIBDIR%%/libats/DATS/SHARE
-@dirrmtry %%ATS_LIBDIR%%/libats/DATS
-@dirrmtry %%ATS_LIBDIR%%/libats/ML/CATS
-@dirrmtry %%ATS_LIBDIR%%/libats/ML/DATS/SHARE
-@dirrmtry %%ATS_LIBDIR%%/libats/ML/DATS
-@dirrmtry %%ATS_LIBDIR%%/libats/ML/SATS/SHARE
-@dirrmtry %%ATS_LIBDIR%%/libats/ML/SATS
-@dirrmtry %%ATS_LIBDIR%%/libats/ML
-@dirrmtry %%ATS_LIBDIR%%/libats/SATS/SHARE
-@dirrmtry %%ATS_LIBDIR%%/libats/SATS
-@dirrmtry %%ATS_LIBDIR%%/libats
-@dirrmtry %%ATS_LIBDIR%%/libc/CATS
-@dirrmtry %%ATS_LIBDIR%%/libc/DATS
-@dirrmtry %%ATS_LIBDIR%%/libc/SATS
-@dirrmtry %%ATS_LIBDIR%%/libc/gdbm/CATS
-@dirrmtry %%ATS_LIBDIR%%/libc/gdbm/DATS
-@dirrmtry %%ATS_LIBDIR%%/libc/gdbm/SATS/SHARE
-@dirrmtry %%ATS_LIBDIR%%/libc/gdbm/SATS
-@dirrmtry %%ATS_LIBDIR%%/libc/gdbm
-@dirrmtry %%ATS_LIBDIR%%/libc/sys/CATS
-@dirrmtry %%ATS_LIBDIR%%/libc/sys/DATS
-@dirrmtry %%ATS_LIBDIR%%/libc/sys/SATS
-@dirrmtry %%ATS_LIBDIR%%/libc/sys
-@dirrmtry %%ATS_LIBDIR%%/libc
-@dirrmtry %%ATS_LIBDIR%%/prelude/CATS
-@dirrmtry %%ATS_LIBDIR%%/prelude/DATS
-@dirrmtry %%ATS_LIBDIR%%/prelude/SATS
-@dirrmtry %%ATS_LIBDIR%%/prelude
-@dirrmtry %%ATS_LIBDIR%%/share/HATS
-@dirrmtry %%ATS_LIBDIR%%/share
-@dirrmtry %%ATS_LIBDIR%%
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/.keeper
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/Makefile
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ATS1_funheap_binomial.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ATS1_funheap_braun.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ATS1_funmset_listord.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ATS1_funset_listord.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ATS1_linset_listord.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_array0.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_filebas.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_funmap.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_funset.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_intrange.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_list0.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_matrix0.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_monad_list.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_monad_maybe.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_strarr.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_string.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_deqarray.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_dllist.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_dynarray.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_fundeque_fngtree.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_funmap_avltree.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_funmap_list.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_funralist_nested.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_funset_avltree.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_funset_listord.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_hashtbl_chain.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_hashtbl_linprb.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_lindeque_dllist.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_linheap_binomial.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_linheap_binomial2.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_linmap_avltree.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_linmap_list.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_linmap_randbst.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_linmap_skiplist.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_linset_avltree.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_linset_listord.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_qlist.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_refcount.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_sllist.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_stkarray.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_stringbuf.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_dirent.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_dlfcn.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_fcntl.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_fnmatch.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_gdbm_gdbm.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_malloc.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_math.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_signal.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_stdio.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_stdlib.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_string.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_strings.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_sys_stat.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_time.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libc_unistd.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_array.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_arrayptr.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_arrayref.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_basics.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_bool.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_char.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_checkast.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_filebas.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_float.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_gprint.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_integer.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_intrange.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_list.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_list_vt.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_matrix.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_matrixptr.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_matrixref.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_memory.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_option.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_option_vt.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_pointer.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_reference.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_stream.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_stream_vt.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/prelude_string.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/.keeper
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/Makefile
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/acker1.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/acker2.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/acker3.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/acker4.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/areverse.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/atof.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/atoi.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/bintree.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/f91.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fact1.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fact2.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fact3.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fcopy.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fcopy2.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fib1.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fib2.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fib_lazy.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fib_llazy.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fibmem.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fprintlst2.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/fprtuple.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/gfact.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/hello.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/intecho.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/intrange.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/linenmbr.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/listfuns.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/listpermute.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/myatslib.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/ordset.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/sieve_lazy.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/sieve_llazy.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/staref.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/strprefix.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/INTRO/tally.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/.keeper
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/Makefile
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/arith_overflow.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/autodiff.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/coinflip.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/ferryman.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/fibver_loop.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/fibver_trec.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/fourslot.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/hanoi.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/isqrt.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/matrixops.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/monad_maybe.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/monad_state.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/morse_enum.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/passwdgen.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/queens_lazy.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/queens_loop.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/randerlin.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/readdirall.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/sieve.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/sllist_mapfree.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/stdlib_bsearch.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/strmat.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/wclines.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/MISC/word-chain.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/PCPV/.keeper
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/PCPV/Makefile
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/PCPV/bsearch_arr.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/PCPV/quicksort_lst.dats
+@dir %%ATS_LIBDIR%%/ccomp/atslib/%%LIBDIR%%
+@dir %%ATS_LIBDIR%%/ccomp/atslib/output
