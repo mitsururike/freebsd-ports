@@ -67,19 +67,19 @@
 %%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkwidget.sats
 %%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/gtkwindow.sats
 %%ATS_LIBDIR%%/contrib/GTK/SATS/gtk/mybasis.sats
-%%ATS_LIBDIR%%/contrib/HTML/CATS/.keeper
-%%ATS_LIBDIR%%/contrib/HTML/DATS/.keeper
-%%ATS_LIBDIR%%/contrib/HTML/JS/HTMLdocument.js
-%%ATS_LIBDIR%%/contrib/HTML/SATS/document.sats
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/.keeper
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/JS/.keeper
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/JS/HTML5canvas2d.js
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/SATS/.keeper
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/SATS/canvas2d.sats
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST/.keeper
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST/Makefile
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST/test01.dats
-%%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST/test01.html
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/JS/HTMLdocument.js
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/SATS/document.sats
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/.keeper
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/JS/.keeper
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/JS/HTML5canvas2d.js
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/SATS/canvas2d.sats
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/TEST/.keeper
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/TEST/Makefile
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/TEST/test01.dats
+%%ATS_LIBDIR%%/contrib/HTML-emscripten/canvas-2d/TEST/test01.html
 %%ATS_LIBDIR%%/contrib/JNI/CATS/.keeper
 %%ATS_LIBDIR%%/contrib/JNI/CATS/jni.cats
 %%ATS_LIBDIR%%/contrib/JNI/DATS/.keeper
@@ -90,6 +90,13 @@
 %%ATS_LIBDIR%%/contrib/JNI/SATS/.keeper
 %%ATS_LIBDIR%%/contrib/JNI/SATS/ATSarrayptr.sats
 %%ATS_LIBDIR%%/contrib/JNI/SATS/jni.sats
+%%ATS_LIBDIR%%/contrib/OpenSSL/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/OpenSSL/CATS/evp.cats
+%%ATS_LIBDIR%%/contrib/OpenSSL/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/OpenSSL/DATS/openssl.dats
+%%ATS_LIBDIR%%/contrib/OpenSSL/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/OpenSSL/SATS/evp.sats
+%%ATS_LIBDIR%%/contrib/OpenSSL/SATS/main.sats
 %%ATS_LIBDIR%%/contrib/SDL2/CATS/.keeper
 %%ATS_LIBDIR%%/contrib/SDL2/CATS/SDL.cats
 %%ATS_LIBDIR%%/contrib/SDL2/CATS/SDL_events.cats
@@ -178,19 +185,26 @@
 %%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/integer.cats
 %%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/pointer.cats
 %%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS/string.cats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/SIMD/CATS/v2df.cats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/SIMD/SATS/v2df.sats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/CATS/.keeper
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_cloref.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_fileptr.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_fileref.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_fun.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_string.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_strptr.dats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS/cstream_tokener.dats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/SATS/.keeper
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/SATS/cstream.sats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/SATS/cstream_tokener.sats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/.keeper
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/gcount.hats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/gdeqarray.hats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/ghashtbl_chain.hats
+%%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/ghashtbl_linprb.hats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/globvar.hats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS/gstacklst.hats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/CATS/.keeper
@@ -250,6 +264,110 @@
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/SATS/.keeper
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/SATS/foldleft.sats
 %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/SATS/randgen.sats
+%%ATS_LIBDIR%%/contrib/libatscc/DATS/intrange.dats
+%%ATS_LIBDIR%%/contrib/libatscc/DATS/list.dats
+%%ATS_LIBDIR%%/contrib/libatscc/DATS/stream.dats
+%%ATS_LIBDIR%%/contrib/libatscc/SATS/arrayref.sats
+%%ATS_LIBDIR%%/contrib/libatscc/SATS/intrange.sats
+%%ATS_LIBDIR%%/contrib/libatscc/SATS/list.sats
+%%ATS_LIBDIR%%/contrib/libatscc/SATS/matrixref.sats
+%%ATS_LIBDIR%%/contrib/libatscc/SATS/stream.sats
+%%ATS_LIBDIR%%/contrib/libatscc/basics.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/CATS/JSarray_cats.js
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/CATS/JSdate_cats.js
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/CATS/JSglobal_cats.js
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/CATS/JSmath_cats.js
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/CATS/basics_cats.js
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/CATS/float_cats.js
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/CATS/integer_cats.js
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/CATS/string_cats.js
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/DATS/arrayref.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/DATS/intrange.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/DATS/list.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/DATS/matrixref.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/DATS/print.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/DATS/reference.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/DATS/stream.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/JSarray.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/JSdate.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/JSglobal.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/JSmath.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/arrayref.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/filebas.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/float.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/integer.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/intrange.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/list.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/matrixref.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/print.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/reference.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/stream.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/SATS/string.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/basics_js.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2js/staloadall.hats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/PHParray_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/PHParref_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/PHPref_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/basics_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/bool_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/filebas_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/float_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/integer_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/print_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/CATS/string_cats.php
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/DATS/intrange.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/DATS/list.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/DATS/reference.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/PHParray.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/PHParref.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/PHPref.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/bool.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/filebas.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/float.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/integer.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/intrange.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/list.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/print.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/reference.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/SATS/string.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/basics_php.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2php/staloadall.hats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/CATS/basics_cats.pl
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/CATS/bool_cats.pl
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/CATS/float_cats.pl
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/CATS/integer_cats.pl
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/CATS/print_cats.pl
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/CATS/string_cats.pl
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/SATS/PLarray.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/SATS/bool.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/SATS/filebas.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/SATS/integer.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/SATS/list.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/SATS/print.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/SATS/string.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/basics_pl.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/staloadall.hats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/CATS/.keeper
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/CATS/PYlist_cats.py
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/CATS/basics_cats.py
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/CATS/bool_cats.py
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/CATS/char_cats.py
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/CATS/filebas_cats.py
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/CATS/integer_cats.py
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/CATS/string_cats.py
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/DATS/.keeper
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/DATS/list.dats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/.keeper
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/PYlist.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/bool.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/char.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/filebas.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/integer.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/list.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/print.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/SATS/string.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/basics_py.sats
+%%ATS_LIBDIR%%/contrib/libatscc/libatscc2py/staloadall.hats
 %%ATS_LIBDIR%%/contrib/libcurl/CATS/.keeper
 %%ATS_LIBDIR%%/contrib/libcurl/CATS/curl.cats
 %%ATS_LIBDIR%%/contrib/libcurl/DATS/.keeper
@@ -261,13 +379,6 @@
 %%ATS_LIBDIR%%/contrib/libgmp/DATS/.keeper
 %%ATS_LIBDIR%%/contrib/libgmp/SATS/.keeper
 %%ATS_LIBDIR%%/contrib/libgmp/SATS/gmp.sats
-%%ATS_LIBDIR%%/contrib/openssl/CATS/.keeper
-%%ATS_LIBDIR%%/contrib/openssl/CATS/evp.cats
-%%ATS_LIBDIR%%/contrib/openssl/DATS/.keeper
-%%ATS_LIBDIR%%/contrib/openssl/DATS/openssl.dats
-%%ATS_LIBDIR%%/contrib/openssl/SATS/.keeper
-%%ATS_LIBDIR%%/contrib/openssl/SATS/evp.sats
-%%ATS_LIBDIR%%/contrib/openssl/SATS/main.sats
 %%ATS_LIBDIR%%/contrib/pcre/CATS/.keeper
 %%ATS_LIBDIR%%/contrib/pcre/CATS/pcre.cats
 %%ATS_LIBDIR%%/contrib/pcre/DATS/.keeper
@@ -282,111 +393,4 @@
 %%ATS_LIBDIR%%/contrib/zeromq/DATS/zmq.dats
 %%ATS_LIBDIR%%/contrib/zeromq/SATS/.keeper
 %%ATS_LIBDIR%%/contrib/zeromq/SATS/zmq.sats
-@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/CATS/gdk
-@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/CATS/gtk
-@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/SATS/gdk
-@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/SATS/gtk
-@dirrmtry %%ATS_LIBDIR%%/contrib/GTK/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/GTK
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/JS
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/canvas-2d/JS
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/canvas-2d/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/canvas-2d/TEST
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML/canvas-2d
-@dirrmtry %%ATS_LIBDIR%%/contrib/HTML
-@dirrmtry %%ATS_LIBDIR%%/contrib/JNI/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/JNI/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/JNI/Java
-@dirrmtry %%ATS_LIBDIR%%/contrib/JNI/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/JNI
-@dirrmtry %%ATS_LIBDIR%%/contrib/SDL2/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/SDL2/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/SDL2
-@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS/Drawing
-@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS/Fonts
-@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS/Surfaces
-@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS/Utilities
-@dirrmtry %%ATS_LIBDIR%%/contrib/cairo/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/cairo
-@dirrmtry %%ATS_LIBDIR%%/contrib/glib/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/glib/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/glib/SATS/glib
-@dirrmtry %%ATS_LIBDIR%%/contrib/glib/SATS/gobject
-@dirrmtry %%ATS_LIBDIR%%/contrib/glib/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/glib
-@dirrmtry %%ATS_LIBDIR%%/contrib/hiredis/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/hiredis/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/hiredis/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/hiredis
-@dirrmtry %%ATS_LIBDIR%%/contrib/jansson/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/jansson/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/jansson/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/jansson
-@dirrmtry %%ATS_LIBDIR%%/contrib/json-c/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/json-c/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/json-c/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/json-c
-@dirrmtry %%ATS_LIBDIR%%/contrib/kernelats/prelude/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/kernelats/prelude
-@dirrmtry %%ATS_LIBDIR%%/contrib/kernelats
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/cstream
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals/HATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/globals
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/intinf
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/BUCS/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/BUCS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/fileAsLock
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS/gtkcairotimer
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK/TEST
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/myGTK
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/JS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mydraw
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching/mythread
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/teaching
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi/testing
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-/hwxi
-@dirrmtry %%ATS_LIBDIR%%/contrib/libats-
-@dirrmtry %%ATS_LIBDIR%%/contrib/libcurl/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libcurl/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libcurl/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libcurl
-@dirrmtry %%ATS_LIBDIR%%/contrib/libgmp/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libgmp/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libgmp/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/libgmp
-@dirrmtry %%ATS_LIBDIR%%/contrib/openssl/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/openssl/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/openssl/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/openssl
-@dirrmtry %%ATS_LIBDIR%%/contrib/pcre/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/pcre/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/pcre/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/pcre
-@dirrmtry %%ATS_LIBDIR%%/contrib/zeromq/CATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/zeromq/DATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/zeromq/SATS
-@dirrmtry %%ATS_LIBDIR%%/contrib/zeromq
-@dirrmtry %%ATS_LIBDIR%%/contrib
+@dir %%ATS_LIBDIR%%/contrib/libatscc/libatscc2pl/DATS

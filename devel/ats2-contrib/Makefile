@@ -8,7 +8,6 @@ MASTER_SITES=	SF
 MASTER_SITE_SUBDIR=	ats2-lang-contrib/ats2-lang-contrib
 PKGNAMESUFFIX=	-contrib
 DISTNAME=	${PORTNAME:tu}-${ATS_IMPL:C/^(.).*/\1/:tu}${ATS_IMPL:C/^.(.*)/\1/}${PKGNAMESUFFIX}-${PORTVERSION}
-EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	mitsururike@gmail.com
 COMMENT=	Extensions and enhancements to the ATS2 libraries
@@ -17,8 +16,10 @@ LICENSE=	GPLv3
 
 ONLY_FOR_ARCHS=	i386 amd64
 
+USES=		tar:tgz
+
 ATS_IMPL=	postiats
-ATS_VER=	0.1.1
+ATS_VER=	0.1.5
 
 ATS_LIBDIR_REL=	lib/ats2-${ATS_IMPL}-${ATS_VER}
 ATS_LIBDIR=	${LOCALBASE}/${ATS_LIBDIR_REL}
