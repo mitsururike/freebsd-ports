@@ -51,6 +51,7 @@ bin/patsopt
 %%ATS_LIBDIR%%/libats/DATS/SHARE/linset_node.hats
 %%ATS_LIBDIR%%/libats/DATS/athread.dats
 %%ATS_LIBDIR%%/libats/DATS/athread_posix.dats
+%%ATS_LIBDIR%%/libats/DATS/bitvec.dats
 %%ATS_LIBDIR%%/libats/DATS/deqarray.dats
 %%ATS_LIBDIR%%/libats/DATS/dllist.dats
 %%ATS_LIBDIR%%/libats/DATS/dynarray.dats
@@ -63,7 +64,11 @@ bin/patsopt
 %%ATS_LIBDIR%%/libats/DATS/gfarray.dats
 %%ATS_LIBDIR%%/libats/DATS/gflist.dats
 %%ATS_LIBDIR%%/libats/DATS/gflist_vt.dats
+%%ATS_LIBDIR%%/libats/DATS/gmatrix.dats
+%%ATS_LIBDIR%%/libats/DATS/gmatrix_col.dats
+%%ATS_LIBDIR%%/libats/DATS/gmatrix_row.dats
 %%ATS_LIBDIR%%/libats/DATS/gnode.dats
+%%ATS_LIBDIR%%/libats/DATS/gvector.dats
 %%ATS_LIBDIR%%/libats/DATS/hashfun.dats
 %%ATS_LIBDIR%%/libats/DATS/hashtbl_chain.dats
 %%ATS_LIBDIR%%/libats/DATS/hashtbl_linprb.dats
@@ -138,6 +143,7 @@ bin/patsopt
 %%ATS_LIBDIR%%/libats/SATS/SHARE/linset.hats
 %%ATS_LIBDIR%%/libats/SATS/SHARE/linset_node.hats
 %%ATS_LIBDIR%%/libats/SATS/athread.sats
+%%ATS_LIBDIR%%/libats/SATS/bitvec.sats
 %%ATS_LIBDIR%%/libats/SATS/deqarray.sats
 %%ATS_LIBDIR%%/libats/SATS/dllist.sats
 %%ATS_LIBDIR%%/libats/SATS/dynarray.sats
@@ -150,7 +156,11 @@ bin/patsopt
 %%ATS_LIBDIR%%/libats/SATS/gfarray.sats
 %%ATS_LIBDIR%%/libats/SATS/gflist.sats
 %%ATS_LIBDIR%%/libats/SATS/gflist_vt.sats
+%%ATS_LIBDIR%%/libats/SATS/gmatrix.sats
+%%ATS_LIBDIR%%/libats/SATS/gmatrix_col.sats
+%%ATS_LIBDIR%%/libats/SATS/gmatrix_row.sats
 %%ATS_LIBDIR%%/libats/SATS/gnode.sats
+%%ATS_LIBDIR%%/libats/SATS/gvector.sats
 %%ATS_LIBDIR%%/libats/SATS/hashfun.sats
 %%ATS_LIBDIR%%/libats/SATS/hashtbl_chain.sats
 %%ATS_LIBDIR%%/libats/SATS/hashtbl_linprb.sats
@@ -219,6 +229,10 @@ bin/patsopt
 %%ATS_LIBDIR%%/libc/SATS/unistd.sats
 %%ATS_LIBDIR%%/libc/SATS/unistd_pathconf.sats
 %%ATS_LIBDIR%%/libc/SATS/unistd_sysconf.sats
+%%ATS_LIBDIR%%/libc/arpa/CATS/.keeper
+%%ATS_LIBDIR%%/libc/arpa/CATS/inet.cats
+%%ATS_LIBDIR%%/libc/arpa/SATS/.keeper
+%%ATS_LIBDIR%%/libc/arpa/SATS/inet.sats
 %%ATS_LIBDIR%%/libc/gdbm/.keeper
 %%ATS_LIBDIR%%/libc/gdbm/CATS/.keeper
 %%ATS_LIBDIR%%/libc/gdbm/CATS/datum.cats
@@ -228,18 +242,28 @@ bin/patsopt
 %%ATS_LIBDIR%%/libc/gdbm/SATS/SHARE/.keeper
 %%ATS_LIBDIR%%/libc/gdbm/SATS/SHARE/datum.hats
 %%ATS_LIBDIR%%/libc/gdbm/SATS/gdbm.sats
+%%ATS_LIBDIR%%/libc/netinet/CATS/.keeper
+%%ATS_LIBDIR%%/libc/netinet/CATS/in.cats
+%%ATS_LIBDIR%%/libc/netinet/SATS/.keeper
+%%ATS_LIBDIR%%/libc/netinet/SATS/in.sats
 %%ATS_LIBDIR%%/libc/sys/.keeper
 %%ATS_LIBDIR%%/libc/sys/CATS/.keeper
 %%ATS_LIBDIR%%/libc/sys/CATS/mman.cats
+%%ATS_LIBDIR%%/libc/sys/CATS/socket.cats
+%%ATS_LIBDIR%%/libc/sys/CATS/socket_in.cats
 %%ATS_LIBDIR%%/libc/sys/CATS/stat.cats
 %%ATS_LIBDIR%%/libc/sys/CATS/time.cats
 %%ATS_LIBDIR%%/libc/sys/CATS/types.cats
 %%ATS_LIBDIR%%/libc/sys/CATS/wait.cats
 %%ATS_LIBDIR%%/libc/sys/DATS/.keeper
+%%ATS_LIBDIR%%/libc/sys/DATS/socket.dats
+%%ATS_LIBDIR%%/libc/sys/DATS/socket_in.dats
 %%ATS_LIBDIR%%/libc/sys/DATS/stat.dats
 %%ATS_LIBDIR%%/libc/sys/DATS/types.dats
 %%ATS_LIBDIR%%/libc/sys/SATS/.keeper
 %%ATS_LIBDIR%%/libc/sys/SATS/mman.sats
+%%ATS_LIBDIR%%/libc/sys/SATS/socket.sats
+%%ATS_LIBDIR%%/libc/sys/SATS/socket_in.sats
 %%ATS_LIBDIR%%/libc/sys/SATS/stat.sats
 %%ATS_LIBDIR%%/libc/sys/SATS/time.sats
 %%ATS_LIBDIR%%/libc/sys/SATS/types.sats
@@ -368,6 +392,8 @@ bin/patsopt
 %%ATS_LIBDIR%%/prelude/macrodef.sats
 %%ATS_LIBDIR%%/prelude/params.hats
 %%ATS_LIBDIR%%/share/.keeper
+%%ATS_LIBDIR%%/share/H/.keeper
+%%ATS_LIBDIR%%/share/H/pats_atslib.h
 %%ATS_LIBDIR%%/share/HATS/.keeper
 %%ATS_LIBDIR%%/share/HATS/atslib_staload_libc.hats
 %%ATS_LIBDIR%%/share/HATS/atspre_define_pkgreloc.hats
@@ -395,6 +421,7 @@ bin/patsopt
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_monad_maybe.dats
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_strarr.dats
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_ML_string.dats
+%%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_bitvec.dats
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_deqarray.dats
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_dllist.dats
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/ATSLIB/libats_dynarray.dats
@@ -527,5 +554,6 @@ bin/patsopt
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/PCPV/Makefile
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/PCPV/bsearch_arr.dats
 %%PORTEXAMPLES%%%%EXAMPLESDIR%%/PCPV/quicksort_lst.dats
+@dir %%ATS_LIBDIR%%/ccomp/atslib/lib32
 @dir %%ATS_LIBDIR%%/ccomp/atslib/%%LIBDIR%%
 @dir %%ATS_LIBDIR%%/ccomp/atslib/output
