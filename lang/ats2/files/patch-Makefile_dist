@@ -1,6 +1,6 @@
---- ./Makefile_dist.orig	2014-06-10 11:41:23.000000000 +0900
-+++ ./Makefile_dist	2014-06-11 10:45:31.000000000 +0900
-@@ -33,31 +33,29 @@
+--- Makefile_dist.orig	2015-02-28 11:13:45.000000000 +0900
++++ Makefile_dist	2015-03-17 20:39:23.000000000 +0900
+@@ -33,38 +33,36 @@
  #
  ######
  
@@ -12,9 +12,16 @@
  #
 -CCOMP=gcc
 +CCOMP=${CC}
- GCFLAG=-D_ATS_GCATS
+ #
+ GCFLAG=
+ #GCFLAG=-D_ATS_NGC
+ #GCFLAG=-D_ATS_GCBDW
+ #GCFLAG=-D_ATS_GCATS
+ #
 -CFLAGS=
 -LDFLAGS=
+ #
+ ######
  #
  src2_patsopt: ; \
 -make -j4 -C src/CBOOT \
@@ -38,9 +45,18 @@
  
  ######
  
-@@ -159,9 +157,9 @@
- cleanall:: ; $(RMF) bin/patscc_env.sh
- cleanall:: ; $(RMF) bin/patsopt_env.sh
+@@ -163,7 +161,7 @@
+ ######
+ 
+ clean:: ; $(RMF) ccomp/atslib/output/*.o
+-clean:: ; make -C src/CBOOT -f Makefile clean
++clean:: ; ${MAKE} -C src/CBOOT -f Makefile clean
+ 
+ ######
+ 
+@@ -183,9 +181,9 @@
+ cleanall:: ; $(RMF) ccomp/atslib/lib64/*
+ cleanall:: ; $(RMF) ccomp/atslib/output/*
  
 -cleanall:: ; make -C src -f Makefile cleanall
 -cleanall:: ; make -C src/CBOOT -f Makefile cleanall
@@ -49,5 +65,5 @@
 +cleanall:: ; ${MAKE} -C src/CBOOT -f Makefile cleanall
 +cleanall:: ; ${MAKE} -C utils/atscc -f Makefile cleanall
  
- cleanall:: ; $(RMF) ccomp/atslib/lib/*
- cleanall:: ; $(RMF) ccomp/atslib/lib64/*
+ ######
+ 
